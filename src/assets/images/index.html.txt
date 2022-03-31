@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  font-size: 17px;
+  background-color: rgb(1, 100, 146);
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h2{
+  text-align: center;
+  font-weight: normal;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-bottom: -0.25em;
+}
+.text1 {
+  transform: translate(-66.6%,-110%);
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0px 0px 0px 300px;
+  width: 68%;
+  border-radius: 0px 0px 15px 15px ;
+}
+.gradient-text {
+  background-color: red;
+  background-image: linear-gradient(45deg, #c7d0e6, #021464);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+img.rounded-corners{
+  border-radius:15px ;
+}
+.button{
+  margin: 0px 0px 50px 100px;
+  width: 69%;
+  height: 180px;
+  weight: 300px;
+  border-radius:15px ;
+  border: none;
+  display: inline-block;
+  background-color:  rgb(1, 100, 146);
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+    <h2 class="gradient-text">Welcome</h2>
+    <p></p>
+    <div class="row">
+        <div class="column">
+            <button class="button"><img src="file:/C:/Users/HP/Desktop/Fruits_Images/grid1.jpg" height="180" width="300" alt="Apples" class="rounded-corners" style="vertical-align:middle;margin: 0px 0px 0px -6px;"> </button>
+          <div class="text1">
+            <p>Apple&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$200</p> 
+          </div>
+        </div>
+
+        <div class="column">
+            <button class="button"><img src="file:/C:/Users/HP/Desktop/Fruits_Images/grid2.jpg" height="180" width="300" alt="Oranges" class="rounded-corners" style="vertical-align:middle;margin: 0px 0px 0px -6px;"> </button>
+            <div class="text1">
+            <p>Orange&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$20</p> 
+            </div>
+        </div>
+
+        <div class="column">
+            <button class="button"><img src="file:/C:/Users/HP/Desktop/Fruits_Images/grid3.jpg" height="180" width="300" alt="Grapes" class="rounded-corners" style="vertical-align:middle;margin: 0px 0px 0px -6px;"> </button>
+            <div class="text1">
+                <p>Grapes&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$50</p> 
+            </div>
+        </div>
+
+        <div class="column">
+            <button class="button"><img src="file:/C:/Users/HP/Desktop/Fruits_Images/grid4.jpg" height="180" width="300" alt="Sapota" class="rounded-corners" style="vertical-align:middle;margin: 0px 0px 0px -6px;"> </button>
+            <div class="text1">
+                <p>Sapota&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$40</p> 
+            </div>
+        </div>
+
+        <div class="column">
+            <button class="button"><img src="file:/C:/Users/HP/Desktop/Fruits_Images/grid5.jpg" height="180" width="300" alt="Strawberry" class="rounded-corners" style="vertical-align:middle;margin: 0px 0px 0px -6px;"> </button>
+            <div class="text1">
+                <p>Strawberry&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$30</p> 
+            </div>
+        </div>
+
+        <div class="column">
+            <button class="button"><img src="file:/C:/Users/HP/Desktop/Fruits_Images/grid6.jpg" height="180" width="300" alt="Blueberry" class="rounded-corners" style="vertical-align:middle;margin: 0px 0px 0px -6px;"> </button>
+            <div class="text1">
+                <p>Blueberry&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$120</p> 
+            </div>
+          </div>
+    </div>
+  </body>
+</html>
